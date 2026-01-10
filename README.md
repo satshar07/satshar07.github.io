@@ -2,16 +2,29 @@
 **UC Berkeley — Computer Science + Operations Research**
 
 [Email](mailto:satyam_sharma@berkeley.edu)
-
 ---
+<style>
+  .two-col {
+    display: flex;
+    gap: 2.5rem;
+    align-items: flex-start;
+  }
+  .col {
+    flex: 1;
+    min-width: 320px;
+  }
+  @media (max-width: 900px) {
+    .two-col { flex-direction: column; }
+  }
+  .tldr {
+    font-weight: 600;
+    margin: 0.25rem 0 0.75rem 0;
+  }
+</style>
 
-## About
-I work on ML and AI systems under real constraints—limited compute, non-IID data, adversarial settings, and deployment requirements. Most of my projects focus on stress-testing ideas that look good in theory and understanding where they actually break in practice.
-
-My background spans deep learning, computer vision, and mission-facing software.
-
----
-
+<div class="two-col">
+  <div class="col" markdown="1">
+    
 ## Research
 
 ### Dynamic Hyperparameter Optimization (Vision Transformers)
