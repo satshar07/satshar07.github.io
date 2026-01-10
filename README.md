@@ -5,25 +5,6 @@
 
 ---
 
-<style>
-  .two-col {
-    display: flex;
-    gap: 2.5rem;
-    align-items: flex-start;
-  }
-  .col {
-    flex: 1;
-    min-width: 320px;
-  }
-  @media (max-width: 900px) {
-    .two-col { flex-direction: column; }
-  }
-  .tldr {
-    font-weight: 600;
-    margin: 0.25rem 0 0.75rem 0;
-  }
-</style>
-
 <div class="two-col">
   <div class="col" markdown="1">
 
@@ -33,6 +14,9 @@
 <p class="tldr">TLDR: Showed why popular online hyperparameter methods often underperform strong static baselines under realistic compute constraints.</p>
 
 Research project under a robotics PI evaluating Population-Based Training and hypergradient-style updates for Vision Transformers. Found that many adaptive methods converge to conservative regimes due to short-horizon optimization, population stratification, and insufficient adaptation time. Pending publication.
+
+ </div>
+  <div class="col" markdown="1">
 
 ---
 
