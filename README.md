@@ -1,8 +1,3 @@
-# Satyam Sharma  
-**UC Berkeley — Computer Science + Operations Research**
-
-[Email](mailto:satyam_sharma@berkeley.edu)
-
 ---
 
 <div class="two-col">
