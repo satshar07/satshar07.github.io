@@ -6,66 +6,48 @@
 ---
 
 ## About
-I’m interested in making models and systems work under real constraints. Most of my work has been about testing ideas that sound good on paper and figuring out which ones actually hold up when you try to use them.
+I work on ML and AI systems under real constraints—limited compute, non-IID data, adversarial settings, and deployment requirements. Most of my projects focus on stress-testing ideas that look good in theory and understanding where they actually break in practice.
 
 My background spans deep learning, computer vision, and mission-facing software.
 
 ---
 
-## Research & Projects
+## Research
 
 ### Dynamic Hyperparameter Optimization (Vision Transformers)
-Research project under a robotics PI evaluating whether online hyperparameter updates outperform strong static baselines.
+**TLDR:** Showed why popular online hyperparameter methods often underperform strong static baselines under realistic compute constraints.
 
-- Studied Population-Based Training and hypergradient-style updates (the online hyperparameter methods)
-- Found that lightweight online methods often converge to overly conservative regimes
-- In constrained compute settings, well-tuned static baselines consistently matched or outperformed adaptive methods
-- Main contribution was identifying *why* these methods fail quietly: short-horizon optimization, population stratification, and insufficient adaptation time
-
-This project was less about proposing a new optimizer and more about stress-testing popular ideas under realistic constraints. Pending publication.
+Research project under a robotics PI evaluating Population-Based Training and hypergradient-style updates for Vision Transformers. Found that many adaptive methods converge to conservative regimes due to short-horizon optimization, population stratification, and insufficient adaptation time. Pending publication.
 
 ---
 
 ### EnsembleGold — Monocular Depth Estimation
-Inference-time improvements to diffusion-based monocular depth estimation.
+**TLDR:** Improved diffusion-based depth estimation using inference-time techniques only.
 
-- Built on a Marigold-style diffusion pipeline
-- Introduced ensemble consensus sampling and per-scene affine alignment
-- No retraining or architectural changes
-- Achieved a ~17% reduction in Squared Relative Error on NYU-Depth V2, with consistent gains across other metrics
-
-All improvements came from inference-time decisions, not model capacity.
+Built novel inference-time improvements on a Marigold-style diffusion pipeline, including ensemble consensus sampling and per-scene affine alignment. Achieved ~17% reduction in Squared Relative Error on NYU-Depth V2 without retraining or architectural changes. Guided by Prof. Jitendra Malik, Anjoo Kanazawa. 
 
 ---
 
-### Defense Software Deployment — Second Front Systems
-Sourced and worked with 2FS, a DoD‑accredited platform supporting up to TOP SECRET environments, and built an agentic system for vulnerability remediation in defense software environments. Work was shouted out at their quarterly investor meeting. 
+## Commercial / Mission-Facing Work
 
-- The system ingests SBOMs and vulnerability findings, normalizes them, and proposes concrete remediation actions
-- Focused on the **agentic remediation engine**. Designed remediation logic that reasons over dependency graphs and produces actionable changes (e.g., package upgrades, Dockerfile edits) rather than generic advisories
-- Work was grounded in deployment realities: compliance constraints, reproducibility, and auditability
+### Second Front Systems — Agentic Vulnerability Remediation
+**TLDR:** Built an agentic system that turns vulnerability findings into concrete, auditable remediation actions for defense software.
 
-The project treated remediation as a systems problem, not a classification task.
+Worked with Second Front Systems (DoD-accredited up to TOP SECRET) to build an agentic remediation engine that reasons over SBOMs, dependency graphs, and vulnerability metadata to propose actionable fixes (e.g., package upgrades, Dockerfile edits). Designed with compliance, reproducibility, and auditability as first-class constraints. Work was highlighted at a Second Front investor meeting.
+
 ---
 
 ### Falkonry — Adversarial Time-Series & State Inference (Electronic Warfare)
-Worked on ML systems for **electronic warfare and jamming environments** embedded in Falkonry’s platform.
+**TLDR:** Modeled adversarial EW signals where distribution shift is intentional and driven by an adaptive opponent.
 
-- The core problem was **latent state inference under adversarial distribution shift**, not standard time-series forecasting
-- Modeled time-series signals where changes are driven by **intentional interference and adaptation**, not stochastic noise
-- Built representations over multi-scale temporal features to infer regime changes, operational states, and adversary behavior
-- Operated with delayed or partial ground truth, requiring robustness to label uncertainty and non-stationarity
-- Central challenge was distinguishing **structured behavior from deception**, not anomaly detection
-
-This work pushed beyond classical time-series ML toward **robust inference in adversarial, non-stationary environments**.
+Worked on ML systems embedded in Falkonry’s platform for electronic warfare and jamming contexts. Focused on latent state inference under adversarial, non-stationary dynamics with delayed or partial ground truth. The core challenge was separating structured behavior from deception, not anomaly detection.
 
 ---
 
 ## Technical Skills
 Python, PyTorch, NumPy  
-Distributed training concepts, mixed precision, and experiment tracking  
+Distributed training concepts, mixed precision, experiment tracking  
 Diffusion models, inference-time ensembling, sampling strategies  
 Optimization dynamics and hyperparameter sensitivity  
 Time-series modeling under non-IID and adversarial shift  
 Agentic systems, graph-based reasoning, reproducible pipelines
-
