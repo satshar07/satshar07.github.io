@@ -1,0 +1,21 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.two-col {
+  display: flex;
+  gap: 2.5rem;
+  align-items: flex-start;
+}
+.col {
+  flex: 1;
+  min-width: 320px;
+}
+@media (max-width: 900px) {
+  .two-col { flex-direction: column; }
+}
+.tldr {
+  font-weight: 600;
+  margin: 0.25rem 0 0.75rem 0;
+}
