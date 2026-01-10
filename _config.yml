@@ -1,2 +1,9 @@
-theme: jekyll-theme-minimal
 title: Satyam Sharma
+description: >
+  I work on ML and AI systems under real constraints—limited compute,
+  non-IID data, adversarial settings, and deployment requirements.
+  My work focuses on stress-testing ideas that look good in theory
+  and understanding where they break in practice.
+
+show_downloads: false
+theme: jekyll-theme-orderedlist
