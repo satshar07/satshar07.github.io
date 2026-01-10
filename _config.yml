@@ -1,8 +1,10 @@
 title: Satyam Sharma
 description: >
-  ML and AI systems under real constraints.
-  Focused on inference-time behavior, adversarial/non-IID data,
-  and agentic systems that touch real infrastructure.
+  I work on ML and AI systems under real constraints—limited compute, 
+  non-IID data, adversarial settings, and deployment requirements. 
+  Most of my projects focus on stress-testing and understanding where 
+  they actually break in practice. My background spans deep learning, 
+  computer vision, and mission-facing software.
 
 theme: jekyll-theme-minimal
 show_downloads: false
