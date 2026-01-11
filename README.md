@@ -20,7 +20,7 @@ Evaluating Population-Based Training and hypergradient-style updates for Vision 
 
 ### EnsembleGold — Monocular Depth
 <p class="tldr">TLDR: Improved diffusion-based depth estimation using inference-time techniques only.</p>
-Achieved ~17% reduction in RMSE on NYU-Depth V2 without retraining. Guided by Prof. Jitendra Malik and Anjoo Kanazawa.
+Achieved a significant (~10-20%) improvement on various error metrics on zero-shot monocular depth estimation without retraining. Worked on this thanks to Prof. Jitendra Malik and Anjoo Kanazawa.
   </div>
 
   <div class="col-right" markdown="1">
