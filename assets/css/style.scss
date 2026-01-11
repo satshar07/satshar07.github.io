@@ -1,0 +1,53 @@
+---
+---
+@import "{{ site.theme }}";
+
+/* Force hide the theme's default sidebar and header */
+.sidebar, header, #sidebar { 
+  display: none !important; 
+}
+
+/* Expand the main content area to full width */
+.container {
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  padding: 20px !important;
+}
+
+section {
+  width: 100% !important;
+  float: none !important;
+}
+
+.custom-layout {
+  display: flex !important;
+  flex-direction: row;
+  gap: 2.5rem;
+  align-items: flex-start;
+}
+
+/* Left column (Smallest) */
+.col-left {
+  flex: 0 0 200px; 
+  font-size: 0.9rem;
+  border-right: 1px solid #eee;
+  padding-right: 1.5rem;
+}
+
+/* Middle and Right columns (Equal size) */
+.col-mid, .col-right {
+  flex: 1;
+}
+
+.tldr {
+  font-weight: 600;
+  font-style: italic;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 900px) {
+  .custom-layout { flex-direction: column !important; }
+  .col-left { border-right: none; padding-right: 0; flex: none; width: 100%; }
+}
