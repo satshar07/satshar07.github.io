@@ -1,46 +1,39 @@
-<div class="two-col">
-  <div class="col" markdown="1">
+<div class="custom-layout">
+  <div class="col-left" markdown="1">
+# Satyam Sharma
+**UC Berkeley — Computer Science + Operations Research**
 
+I work on ML/AI systems under real constraints. Limited compute, non-IID data, adversarial settings, and deployment requirements. Most of my projects focus on stress-testing and understanding where they actually break in practice.
+
+**Contact:** [satshar0@gmail.com](mailto:satshar0@gmail.com)
+[View My GitHub Profile](https://github.com/satshar07)
+  </div>
+
+  <div class="col-mid" markdown="1">
 ## Research
 
-### Dynamic Hyperparameter Optimization (Vision Transformers)
-<p class="tldr">TLDR: Showed why popular online hyperparameter methods often underperform strong static baselines under realistic compute constraints.</p>
-
-Research project under a robotics PI evaluating Population-Based Training and hypergradient-style updates for Vision Transformers. Found that many adaptive methods converge to conservative regimes due to short-horizon optimization, population stratification, and insufficient adaptation time. Pending publication.
+### Dynamic Hyperparameter Optimization
+<p class="tldr">TLDR: Showed why online hyperparameter methods often underperform static baselines.</p>
+Evaluating Population-Based Training and hypergradient-style updates for Vision Transformers. Found many adaptive methods converge to conservative regimes due to short-horizon optimization.
 
 ***
 
-### EnsembleGold — Monocular Depth Estimation
+### EnsembleGold — Monocular Depth
 <p class="tldr">TLDR: Improved diffusion-based depth estimation using inference-time techniques only.</p>
-
-Built novel inference-time improvements on a Marigold-style diffusion pipeline, including ensemble consensus sampling and per-scene affine alignment. Achieved ~17% reduction in Squared Relative Error on NYU-Depth V2 without retraining or architectural changes. Guided by Prof. Jitendra Malik and Anjoo Kanazawa.
-
+Achieved ~17% reduction in Squared Relative Error on NYU-Depth V2 without retraining. Guided by Prof. Jitendra Malik and Anjoo Kanazawa.
   </div>
 
-  <div class="col" markdown="1">
+  <div class="col-right" markdown="1">
+## Commercial / Mission-Facing
 
-## Commercial / Mission-Facing Work
-
-### Second Front Systems — Agentic Vulnerability Remediation
-<p class="tldr">TLDR: Built an agentic system that turns vulnerability findings into concrete, auditable remediation actions for defense software.</p>
-
-Worked with Second Front Systems (DoD-accredited up to TOP SECRET) to build an agentic remediation engine that reasons over SBOMs, dependency graphs, and vulnerability metadata to propose actionable fixes (e.g., package upgrades, Dockerfile edits). Work was highlighted at a Second Front investor meeting.
+### Second Front Systems
+<p class="tldr">TLDR: Agentic system for vulnerability remediation in defense software.</p>
+Built an engine reasoning over SBOMs and dependency graphs to propose fixes. Work highlighted at a Second Front investor meeting.
 
 ***
 
-### Falkonry — Adversarial Time-Series & State Inference
-<p class="tldr">TLDR: Modeled adversarial EW signals where distribution shift is intentional and driven by an adaptive opponent.</p>
-
-Worked on ML systems embedded in Falkonry’s platform for electronic warfare and jamming contexts. Focused on latent state inference under adversarial, non-stationary dynamics with delayed or partial ground truth. 
-
+### Falkonry — Electronic Warfare
+<p class="tldr">TLDR: Modeled adversarial EW signals under intentional distribution shift.</p>
+Focused on latent state inference under non-stationary dynamics. Separated structured behavior from deception.
   </div>
 </div>
-
----
-
-## Technical Skills
-* **Languages/Frameworks:** Python, PyTorch, NumPy
-* **Core Competencies:** Distributed training, mixed precision, experiment tracking
-* **Generative AI:** Diffusion models, inference-time ensembling, sampling strategies
-* **Optimization:** Optimization dynamics and hyperparameter sensitivity
-* **Systems:** Agentic systems, graph-based reasoning, reproducible pipelines
