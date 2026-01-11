@@ -14,13 +14,13 @@ I work on ML/AI systems under real constraints like limited compute, imperfect d
 
 ### Dynamic Hyperparameter Optimization
 <p class="tldr">TLDR: Showed why online hyperparameter methods often underperform static baselines.</p>
-Evaluating Population-Based Training and hypergradient-style updates for Vision Transformers. Found many adaptive methods converge to conservative regimes due to short-horizon optimization.
+Evaluating Population-Based Training and hypergradient-style updates for Vision Transformers. Found many adaptive methods converge to conservative regimes due to short-horizon optimization. Pending publication.
 
 ***
 
 ### EnsembleGold — Monocular Depth
 <p class="tldr">TLDR: Improved diffusion-based depth estimation using inference-time techniques only.</p>
-Achieved ~17% reduction in Squared Relative Error on NYU-Depth V2 without retraining. Guided by Prof. Jitendra Malik and Anjoo Kanazawa.
+Achieved ~17% reduction in RMSE on NYU-Depth V2 without retraining. Guided by Prof. Jitendra Malik and Anjoo Kanazawa.
   </div>
 
   <div class="col-right" markdown="1">
