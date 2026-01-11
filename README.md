@@ -8,7 +8,6 @@ I work on ML/AI systems under real constraints like limited compute, imperfect d
 Areas I've been reading into/exploring recently revolve around performance engineering, inference-time optimizations, agents, and robotics. 
 
 **Contact:** [satshar0@gmail.com](mailto:satshar0@gmail.com)
-[View My GitHub Profile](https://github.com/satshar07)
   </div>
 
   <div class="col-mid" markdown="1">
