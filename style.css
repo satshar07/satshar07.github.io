@@ -1,0 +1,38 @@
+---
+---
+@import "{{ site.theme }}";
+
+/* Hide the theme's default sidebar to avoid duplication */
+header { display: none; }
+.wrapper { max-width: 1200px; margin: 0 auto; }
+
+.custom-layout {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+/* Left column (Smallest) */
+.col-left {
+  flex: 0 0 20%; 
+  font-size: 0.9rem;
+  border-right: 1px solid #eee;
+  padding-right: 1.5rem;
+}
+
+/* Middle and Right columns (Equal size) */
+.col-mid, .col-right {
+  flex: 1;
+}
+
+.tldr {
+  font-weight: 600;
+  font-style: italic;
+  color: #555;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 900px) {
+  .custom-layout { flex-direction: column; }
+  .col-left { border-right: none; padding-right: 0; }
+}
