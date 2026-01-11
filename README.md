@@ -3,7 +3,9 @@
 # Satyam Sharma
 **Computer Science + Operations Research + Math @ Cal ('25)**
 
-I work on ML/AI systems under real constraints like limited compute, imperfect data, and in stringent production environments. I focus on taking state-of-the-art ideas out of papers and into real systems, and understanding why they often fail in practice. Areas I've been reading into/exploring recently revolve around performance engineering, inference-time optimizations, agents, and robotics. 
+I work on ML/AI systems under real constraints like limited compute, imperfect data, and in stringent production environments. My focus has been on taking state-of-the-art ideas out of papers and into real systems, and understanding why they often fail in practice. 
+
+Areas I've been reading into/exploring recently revolve around performance engineering, inference-time optimizations, agents, and robotics. 
 
 **Contact:** [satshar0@gmail.com](mailto:satshar0@gmail.com)
 [View My GitHub Profile](https://github.com/satshar07)
