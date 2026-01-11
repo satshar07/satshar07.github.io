@@ -1,9 +1,9 @@
 <div class="custom-layout">
   <div class="col-left" markdown="1">
 # Satyam Sharma
-**UC Berkeley — Computer Science + Operations Research**
+**Computer Science + Operations Research + Math @ Cal ('25)**
 
-I work on ML/AI systems under real constraints. Limited compute, non-IID data, adversarial settings, and deployment requirements. Most of my projects focus on stress-testing and understanding where they actually break in practice.
+I work on ML/AI systems under real constraints like limited compute, imperfect data, and in stringent production environments. I focus on taking state-of-the-art ideas out of papers and into real systems, and understanding why they often fail in practice. Areas I've been reading into/exploring recently revolve around performance engineering, inference-time optimizations, agents, and robotics. 
 
 **Contact:** [satshar0@gmail.com](mailto:satshar0@gmail.com)
 [View My GitHub Profile](https://github.com/satshar07)
