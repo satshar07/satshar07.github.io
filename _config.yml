@@ -2,8 +2,8 @@ title: Satyam Sharma
 description: >
   **UC Berkeley — Computer Science + Operations Research**
   
-  I work on ML and AI systems under real constraints—limited compute, 
-  non-IID data, adversarial settings, and deployment requirements. 
+  I work on ML/AI systems under real constraints. Limited compute, 
+  imperfect data, adversarial settings, and deployment requirements. 
   Most of my projects focus on stress-testing and understanding where 
   they actually break in practice. My background spans deep learning, 
   computer vision, and mission-facing software.
