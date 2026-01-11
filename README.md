@@ -36,5 +36,13 @@ Built an engine reasoning over SBOMs and dependency graphs to propose fixes. Wor
 ### Falkonry — Electronic Warfare
 <p class="tldr">TLDR: Modeled adversarial EW signals under intentional distribution shift.</p>
 Focused on latent state inference under non-stationary dynamics. Separated structured behavior from deception.
+
+## Technical Skills
+
+**Performance & Systems:** Distributed training (DDP/FSDP), Mixed-precision (FP16/BF16), Inference-time ensembling, Latent state inference, Adversarial EW signal modeling
+
+**ML Optimization:** Population-Based Training (PBT), Hypergradient descent, Diffusion sampling strategies, Optimization dynamics, Non-IID/Adversarial distribution shift
+
+**Tooling & Architecture:** Python, PyTorch, NumPy, Agentic reasoning engines, Graph-based vulnerability remediation, Reproducible deployment pipelines
   </div>
 </div>
