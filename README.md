@@ -41,7 +41,7 @@ Modeled adversarial EW signals under intentional distribution shift. Focused on 
 
 ***
 ## Other experiences
-Am grateful to have spent time as the first growth hire at a Founders Fund-backed startup, a summer at the State Department, doing AI research at Berkeley, leading my student consulting club on campus into a $1mm+ ARR business, and being the sole organizer/facilitator of the National Security Entrepreneurship Club at Berkeley (worked with 3 corporate sponsors; advised by the Pentagon, the Berkeley Risk and Security Lab, and some folks leading Stanford's DefTech MBA club). 
+Am grateful to have spent time as the first growth hire at a Founders Fund-backed startup, a summer at the State Department, doing AI research at Berkeley, leading my student consulting club on campus into a $1mm+ ARR business, and being the sole organizer/facilitator of the National Security Entrepreneurship Club at Berkeley (worked with 4 corporate sponsors; advised by the Pentagon, the Berkeley Risk and Security Lab, and some folks leading Stanford's DefTech MBA club). 
 
   </div>
 </div>
