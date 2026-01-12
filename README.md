@@ -38,6 +38,6 @@ Built an engine reasoning over SBOMs and dependency graphs to propose fixes. Wor
 Focused on latent state inference under non-stationary dynamics. Separated structured behavior from deception.
 
 ## Technical Skills
-Python; PyTorch (including Distributed Data Parallel and Fully Sharded Data Parallel); NumPy; mixed-precision training (FP16, BF16); distributed training and inference; Vision Transformers; diffusion models; ensemble and test-time inference methods; population-based training; hypergradient optimization; gradient-based learning; zero-shot evaluation; latent-variable and state-space modeling; learning under non-IID, adversarial, and non-stationary data; adversarial signal modeling; graph-based dependency analysis (SBOMs); agent-based automated reasoning systems; reproducible training and deployment pipelines.
+Python; PyTorch; NumPy; mixed-precision training (FP16, BF16); distributed training and inference; Vision Transformers; diffusion models; ensemble and test-time inference methods; latent-variable and state-space modeling; learning under non-IID, adversarial, and non-stationary data; graph-based dependency analysis (SBOMs); agent-based automated reasoning systems
   </div>
 </div>
