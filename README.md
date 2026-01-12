@@ -15,6 +15,7 @@ Areas I've been reading into/exploring recently revolve around performance engin
 
 ### EnsembleGold — Monocular Depth
 Improved diffusion-based depth estimation using inference-time techniques only. Achieved a significant (~10-20%) improvement on various error metrics on zero-shot monocular depth estimation without retraining. Thank you to Prof. Jitendra Malik and Prof. Anjoo Kanazawa.
+
 ***
 
 ### Dynamic Hyperparameter Optimization
