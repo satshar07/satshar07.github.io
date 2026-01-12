@@ -3,7 +3,7 @@
 # Satyam Sharma
 **Cal CS + ORMS + Math grad**
 
-I work on ML/AI systems under real constraints like limited compute, imperfect data, and in stringent production environments. My focus has been on taking state-of-the-art ideas out of papers and into real systems, and understanding why they often fail in practice. 
+Hey 👋! I'm Satyam, a recent Berkeley grad whose focus these past few years has been both research and taking ideas out of papers and into real systems.
 
 Areas I've been reading into/exploring recently revolve around performance engineering, inference-time optimizations, agents, and robotics. 
 
@@ -23,6 +23,10 @@ Evaluating Population-Based Training and hypergradient-style updates for Vision 
 <p class="tldr">TLDR: Improved diffusion-based depth estimation using inference-time techniques only.</p>
 Achieved a significant (~10-20%) improvement on various error metrics on zero-shot monocular depth estimation without retraining. Thank you to Prof. Jitendra Malik and Prof. Anjoo Kanazawa.
   </div>
+  
+## Technical Skills
+Python; PyTorch; NumPy; C++; C; distributed training and inference; vision transformers; diffusion models; ensemble and test-time inference methods; latent-variable and state-space modeling; graph-based dependency analysis (SBOMs); agent-based automated reasoning systems
+
 
   <div class="col-right" markdown="1">
 ## Commercial
@@ -37,7 +41,8 @@ Built an engine reasoning over SBOMs and dependency graphs to propose fixes. Wor
 <p class="tldr">TLDR: Modeled adversarial EW signals under intentional distribution shift.</p>
 Focused on latent state inference under non-stationary dynamics. Separated structured behavior from deception.
 
-## Technical Skills
-Python; PyTorch; NumPy; C++; C; distributed training and inference; vision transformers; diffusion models; ensemble and test-time inference methods; latent-variable and state-space modeling; graph-based dependency analysis (SBOMs); agent-based automated reasoning systems
+## Other experiences
+Am grateful to have spent time as the first growth hire at a Founders Fund-backed startup, a summer at the State Department, doing AI research at Berkeley, leading my student consulting club on campus into a $1mm+ ARR business, and being the sole organizer/facilitator of the National Security Entrepreneurship Club at Berkeley (worked with 3 corporate sponsors; advised by the Pentagon, the Berkeley Risk and Security Lab, and some folks leading Stanford's DefTech MBA club). 
+
   </div>
 </div>
