@@ -33,7 +33,7 @@ Built an engine reasoning over SBOMs and dependency graphs to propose fixes. Wor
 
 ***
 
-### Falkonry — Electronic Warfare
+### Falkonry
 <p class="tldr">TLDR: Modeled adversarial EW signals under intentional distribution shift.</p>
 Focused on latent state inference under non-stationary dynamics. Separated structured behavior from deception.
 
