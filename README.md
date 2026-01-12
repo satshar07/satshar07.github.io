@@ -22,10 +22,10 @@ Evaluating Population-Based Training and hypergradient-style updates for Vision 
 ### EnsembleGold — Monocular Depth
 <p class="tldr">TLDR: Improved diffusion-based depth estimation using inference-time techniques only.</p>
 Achieved a significant (~10-20%) improvement on various error metrics on zero-shot monocular depth estimation without retraining. Thank you to Prof. Jitendra Malik and Prof. Anjoo Kanazawa.
-  </div>
-  
+
 ## Technical Skills
 Python; PyTorch; NumPy; C++; C; distributed training and inference; vision transformers; diffusion models; ensemble and test-time inference methods; latent-variable and state-space modeling; graph-based dependency analysis (SBOMs); agent-based automated reasoning systems
+  </div>
 
 
   <div class="col-right" markdown="1">
