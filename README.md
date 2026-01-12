@@ -25,7 +25,7 @@ Achieved a significant (~10-20%) improvement on various error metrics on zero-sh
   </div>
 
   <div class="col-right" markdown="1">
-## Commercial / Mission-Facing
+## Commercial
 
 ### Second Front Systems
 <p class="tldr">TLDR: Agentic system for vulnerability remediation in defense software.</p>
