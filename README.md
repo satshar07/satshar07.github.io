@@ -1,6 +1,6 @@
 <div class="custom-layout">
   <div class="col-left" markdown="1">
-# Satyam Sharma
+# Satyam
 **Cal CS + ORMS + Math grad**
 
 Hey 👋! I'm Satyam, a recent Berkeley grad whose focus these past few years has been both research and taking ideas out of papers and into real systems.
