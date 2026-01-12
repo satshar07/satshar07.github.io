@@ -1,7 +1,7 @@
 <div class="custom-layout">
   <div class="col-left" markdown="1">
 # Satyam Sharma
-**Graduated Computer Science + Operations Research + Math from Cal**
+**Cal CS + ORMS + Math grad**
 
 I work on ML/AI systems under real constraints like limited compute, imperfect data, and in stringent production environments. My focus has been on taking state-of-the-art ideas out of papers and into real systems, and understanding why they often fail in practice. 
 
