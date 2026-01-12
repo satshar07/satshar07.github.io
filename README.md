@@ -13,8 +13,8 @@ Areas I've been reading into/exploring recently revolve around performance engin
   <div class="col-mid" markdown="1">
 ## Research
 
-### EnsembleGold — Monocular Depth
-Improved diffusion-based depth estimation using inference-time techniques only. Achieved a significant (~10-20%) improvement on various error metrics on zero-shot monocular depth estimation without retraining. Thank you to Prof. Jitendra Malik and Prof. Anjoo Kanazawa.
+### EnsembleGold — Monocular Depth Estimation
+Worked on novel diffusion-based depth estimation using novel inference-time techniques only. Achieved a significant (~10-20%) improvement on various error metrics on zero-shot monocular depth estimation without retraining. Thank you to Prof. Jitendra Malik and Prof. Anjoo Kanazawa.
 
 ***
 
